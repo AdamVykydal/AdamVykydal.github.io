@@ -111,17 +111,29 @@ footer {
 }
 
 .items {
+    text-align: center;
     display: flex;
-   
+    
     justify-content: space-between;
 }
 
 .item {
+    
     text-align: center;
     margin-top: 60px;
   
 }
-
+#hprojekt{
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 10px;
+}
+#hprojektline{
+    margin-top: 30px;
+}
+.projekth{
+    padding-bottom: 30px;
+}
 
 
 #navbar ul li a:hover {
@@ -135,13 +147,15 @@ footer {
             justify-content: center;
         }
     
-        #item{
+        .item{
             flex-wrap: wrap;
+            display: flex;
             justify-content: center;
             flex: 1;
         }
-        #me .items{
+        .items{
             flex-wrap: wrap;
+            display: flex;
             justify-content: center;
         }
     
@@ -164,5 +178,9 @@ footer {
         #profile-img{
             display: none;
         }
-    
+        #showcase2 {
+            background: var(--black-color);
+            color: white;
+            height: 200vh;
+        }
     }   
